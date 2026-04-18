@@ -18,11 +18,11 @@ This ecosystem is decoupled into dedicated repositories for scalability and clea
 
 | Component | Tech Stack | Repository Link |
 | :--- | :--- | :--- |
-| **Backend Core** | Spring Boot 3, Java 17, MySQL 8, Redis, Security | [FitLife-Backend](#) |
-| **Frontend Web** | ReactJS (Vite), TailwindCSS, Zustand | [FitLife-Frontend](#) |
+| **Backend Core** | Spring Boot 3, Java 17, MySQL 8, Redis, Security | [FitLife-Backend](https://github.com/FitLife-Gym-Ecosystem/fitlife-backend) |
+| **Frontend Web** | ReactJS (Vite), TailwindCSS, Zustand | [FitLife-Frontend](https://github.com/FitLife-Gym-Ecosystem/fitlife-frontend) |
 
 ## 🚀 Live Demo & Documentation
-- **Web Application:** `[Link Vercel/FE Live Demo]`![Uploading system_architecture.png…]()
+- **Web Application:** `[Link Vercel/FE Live Demo]`
 
 - **API Swagger UI:** `http://localhost:8080/api/v1/swagger-ui/index.html`
 
