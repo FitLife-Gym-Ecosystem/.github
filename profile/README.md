@@ -1,31 +1,43 @@
-# 🏋️‍♂️ FitLife - Smart Gym Ecosystem
+# 🏋️‍♂️ FitLife - Enterprise Smart Gym Ecosystem
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Architecture: Microservices](https://img.shields.io/badge/Architecture-Decoupled-blue.svg)]()
-[![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)]()
+[![Architecture: Decoupled](https://img.shields.io/badge/Architecture-Decoupled_Client_Server-blue.svg)]()
+[![Status: Active Development](https://img.shields.io/badge/Status-Active-success.svg)]()
 
-> A Next-Generation Gym Management System powered by AI (Google Gemini), automated secure payments (VNPay), and high-performance operations.
+> A Next-Generation Gym Management Ecosystem powered by AI (Google Gemini), automated secure payments (VNPay), and high-performance operations designed for scalability.
 
 ## 🌟 The Vision & Business Value
-FitLife transforms traditional gym operations into an automated, highly personalized ecosystem. By leveraging AI for hybrid workout/nutrition plans and ensuring lightning-fast check-ins via Redis Cache, it directly solves real-world peak-hour bottlenecks and enhances member retention.
+Traditional gym management software often struggles with peak-hour bottlenecks and lacks true personalization. **FitLife** is architected to solve these real-world enterprise challenges:
+- **Zero-Friction Operations:** Eliminates front-desk queues with a `<100ms` Smart Check-in system and automated IoT-ready locker assignments.
+- **Hyper-Personalization at Scale:** Leverages LLM (Google Gemini AI) to act as a virtual NASM-certified coach, generating zero-shot JSON workout and nutrition plans for thousands of members without manual intervention.
+- **Financial Integrity:** 100% cashless transactions secured by HMAC SHA-512 checksum algorithms.
 
 ## 🏗️ System Architecture
+As the foundational step towards a Microservices architecture, FitLife is currently deployed as a highly decoupled N-tier ecosystem. 
 
-<img width="1690" height="1049" alt="system_architecture" src="https://github.com/user-attachments/assets/feb7c822-dc31-462b-9f9a-f5581f203a0c" />
+<img width="1690" height="1049" alt="system_architecture" src="https://github.com/user-attachments/assets/47114fe3-c98a-4462-a5a8-ff515c0e7246" />
+`[🖼️ System Architecture Diagram: Updating in Sprint 4]`
 
-## 📦 Project Repositories
-This ecosystem is decoupled into dedicated repositories for scalability and clean code maintenance:
+## 📦 Ecosystem Repositories
+To ensure independent scaling, maintainability, and clean CI/CD pipelines in the future, the source code is split into dedicated repositories:
 
-| Component | Tech Stack | Repository Link |
-| :--- | :--- | :--- |
-| **Backend Core** | Spring Boot 3, Java 17, MySQL 8, Redis, Security | [FitLife-Backend](https://github.com/FitLife-Gym-Ecosystem/fitlife-backend) |
-| **Frontend Web** | ReactJS (Vite), TailwindCSS, Zustand | [FitLife-Frontend](https://github.com/FitLife-Gym-Ecosystem/fitlife-frontend) |
+| Module | Tech Stack | Responsibility | Repository Link |
+| :--- | :--- | :--- | :--- |
+| **🧠 Core Backend API** | Java 17, Spring Boot 3, MySQL 8, Redis | Business logic, Security, DB Transactions, API Contracts | [FitLife-Backend](https://github.com/FitLife-Gym-Ecosystem/fitlife-backend) |
+| **🎨 Web Client (Admin/User)** | ReactJS (Vite), TailwindCSS, Zustand | UI/UX, State Management, API Consumption | [FitLife-Frontend](https://github.com/FitLife-Gym-Ecosystem/fitlife-frontend) |
 
-## 🚀 Live Demo & Documentation
-- **Web Application:** `[Link Vercel/FE Live Demo]`
+*(Future Scope: Real-time Notification Service & Data Analytics Service will be introduced in Phase 2).*
 
-- **API Swagger UI:** `http://localhost:8080/api/v1/swagger-ui/index.html`
+## 🚀 Live Demo & API Documentation
+- **Web Application:** `[Link Vercel/Frontend Live Demo - Pending Sprint 4]`
+- **API Swagger UI (OpenAPI 3.0):** `[Link Render/Backend Swagger - Pending Sprint 4]`
 
-## 👨‍💻 Developed By
-- **Le Quang Huy** - Fullstack / Backend Developer
-- Connect with me on [LinkedIn](https://www.linkedin.com/in/huy-le-java/)
+## 👨‍💻 Chief Architect & Lead Developer
+This ecosystem is designed and developed by **Le Quang Huy**.
+
+Driven by the ambition to evolve into a **Solution Architect**, I built FitLife to translate academic software engineering principles into a robust, market-ready enterprise product.
+
+
+📫 **Connect with me:**
+- **Developer Profile:** [github.com/lqhuy03](https://github.com/lqhuy03)
+- **LinkedIn:** https://www.linkedin.com/in/huy-le-java/
