@@ -16,7 +16,6 @@ Traditional gym management software often struggles with peak-hour bottlenecks a
 As the foundational step towards a Microservices architecture, FitLife is currently deployed as a highly decoupled N-tier ecosystem. 
 
 <img width="1690" height="1049" alt="system_architecture" src="https://github.com/user-attachments/assets/47114fe3-c98a-4462-a5a8-ff515c0e7246" />
-`[🖼️ System Architecture Diagram: Updating in Sprint 4]`
 
 ## 📦 Ecosystem Repositories
 To ensure independent scaling, maintainability, and clean CI/CD pipelines in the future, the source code is split into dedicated repositories:
